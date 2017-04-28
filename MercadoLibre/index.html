@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mercado Libre México</title>
+    <link rel="shortcut icon" href="imagenes/ml_icono.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my_css.css" rel="stylesheet">
+  </head>
+  <body>
+  <!--BARRA DE NAVEGACION-->
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img alt="No se encontro la imagen" src="imagenes/ml_navbar.png">
+          </a>
+
+          <form class="navbar-form navbar-left" id="navbar_form">
+            <div class="form-group">
+              <div class="input-group">
+              <input type="text" class="form-control input-lg">
+                <a href="#!" class="input-group-addon" >
+                  <span class="glyphicon glyphicon-search"></span>
+                </a>
+              </div>  
+            </div>
+          </form>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav_rl" href="#">Registrate</a></li>
+            <li><a class="nav_rl" href="#">Ingresa</a></li>
+            <li><a class="glyphicon glyphicon-question-sign  nav_rl"   href="#"></a></li>
+            <li><a href="#">Vender</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--Carrousel-->
+    <div id="carousel_ml" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel_ml" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel_ml" data-slide-to="1"></li>
+        <li data-target="#carousel_ml" data-slide-to="2"></li>
+        <li data-target="#carousel_ml" data-slide-to="3"></li>
+        <li data-target="#carousel_ml" data-slide-to="4"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <a href="#!"><img class="img-responsive" src="imagenes/slider/ml_sl_1.jpg" ></a>
+        </div>
+        <div class="item">
+          <a href="#!"><img class="img-responsive" src="imagenes/slider/ml_sl_2.jpg" ></a>
+        </div>
+        <div class="item">
+          <a href="#!"><img class="img-responsive" src="imagenes/slider/ml_sl_3.jpg" ></a>
+        </div>
+        <div class="item">
+          <a href="#!"><img class="img-responsive" src="imagenes/slider/ml_sl_4.png" ></a>
+        </div>
+        <div class="item">
+          <a href="#!"><img class="img-responsive" src="imagenes/slider/ml_sl_5.jpg" ></a>
+        </div>
+      </div>
+
+       <a class="left carousel-control" href="#carousel_ml" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel_ml" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+
+     <!--linea de pagos-->
+     <br><br>
+     <div class="container row">
+       <div class="col-xs-3 col-xs-offset-2">
+         <p>¡Paga en hasta <strong>18 mensualidades</strong>!</p>
+       </div>
+       <div class="col-xs-2">
+        <img id="tarjetas_img" src="imagenes/tarjetas.png"> 
+       </div>
+       <div class="col-xs-2">
+         <a href="#!">Más medios de pago</a>
+       </div>
+       <div class="col-xs-1">
+        <a href="#!"><img id="m_pago" src="imagenes/m_pago.png"></a>
+       </div>
+       <div class="col-xs-2">
+         <a href="#!">Más información</a>
+       </div>
+     </div>
+    
+    <br>
+
+    <!--linea registros-->
+    <div id="registro">
+         <div>
+            <p>¿Aun no tienes cuenta?
+               <button type="button" class="btn">Registrate Gratis</button>
+            </p>
+         </div>
+    </div>
+    
+    <br>
+    <!--ofertas-->
+    <div class="container-fluid row">
+      <!--contenido izquierda-->
+      <div id="ofertas_izq" class="col-xs-2 text-right">
+        <h3><a href="#!">Hogar,muebles y jardín</a></h3>
+        <h6 id="gris">Publicaciones visitadas</h6>
+        <a href="#!"><img id="o_cama" src="imagenes/ofertas/cama1.jpg" alt=""></a>
+        <br>
+        <span class="glyphicon glyphicon-ok pull-left" aria-hidden="true"></span>  
+        <h6 id="gris">Tiendas oficiales</h6>
+
+        <div class="container-fluid row" id="tiendas_oficiales_img">
+          <div class="col-xs-3 ">
+            <a href="#!"><img src="imagenes/ofertas/tammex.jpg" alt=""></a>
+          </div>
+           <div class="col-xs-3 col-xs-offset-3">
+            <a href="#!"><img src="imagenes/ofertas/biogibson.png" alt=""></a>
+          </div>
+        </div>
+        
+         <div class="container-fluid row" id="tiendas_oficiales_img">
+          <div class="col-xs-3 ">
+            <a href="#!"><img src="imagenes/ofertas/america.jpg" alt=""></a>
+          </div>
+           <div class="col-xs-3 col-xs-offset-3">
+            <a href="#!"><img src="imagenes/ofertas/dhogar.png" alt=""></a>
+          </div>
+        </div>
+        <br>
+        <a href="#!"><h6">Más tiendas</h6></a>
+      </div>
+
+       <!--contenido derecha-->
+      <div id="ofertas_der" class="col-xs-10">
+        <br>
+        <div class="container-fluid row">
+          <div class="col-xs-12">
+            <p><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> ofertas de la semana en <strong>Recámaras</strong></p>
+          </div>
+        </div>
+
+         <!--Primera linea de productos-->
+        <div class="container-fluid row">
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c1l1.jpg"></a>
+            <del>$8,800 <sup>00</sup></del>
+            <p><span class="oferta_porciento">35% off </span><span class="oferta_cantidad">  $5,659 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c2l1.jpg"></a>
+            <del>$6,179 <sup>00</sup></del>
+            <p><span class="oferta_porciento">51% off </span><span class="oferta_cantidad">  $2,999 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c3l1.jpg"></a>
+            <del>$3,080 <sup>00</sup></del>
+            <p><span class="oferta_porciento">38% off </span><span class="oferta_cantidad">  $1,909 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c4l1.jpg"></a>
+            <del>$2,619 <sup>00</sup></del>
+            <p><span class="oferta_porciento">30% off </span><span class="oferta_cantidad">  $1,829 <sup>00</sup> </span></p>
+          </div>
+        </div>
+        
+        <!--texto-->
+        <br>
+        <div class="container-fluid row">
+          <div class="col-xs-12">
+            <p>Recomendaciones para Colchones Restonic Individuales</p>
+          </div>
+        </div>
+
+         <!--Segunda linea de productos-->
+        <div class="container-fluid row">
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c1l2.jpg"></a>
+            <br><br>
+            <p><span class="oferta_cantidad">  $5,659 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c2l2.jpg"></a>
+            <del>$6,179 <sup>00</sup></del>
+            <p><span class="oferta_porciento">51% off </span><span class="oferta_cantidad">  $2,999 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c3l2.jpg"></a>
+            <del>$3,665 <sup>00</sup></del>
+            <p><span class="oferta_porciento">40% off </span><span class="oferta_cantidad">  $2,199 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c4l2.jpg"></a>
+            <del>$9,976 <sup>00</sup></del>
+            <p><span class="oferta_porciento">56% off </span><span class="oferta_cantidad">  $4,290 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c5l2.jpg"></a>
+            <del>$5,937 <sup>00</sup></del>
+            <p><span class="oferta_porciento">34% off </span><span class="oferta_cantidad">  $3,899 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 ofertas_flecha">
+           <a href="#!"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+          </div>
+        </div>
+
+        <!--texto-->
+        <div class="container-fluid row">
+          <div class="col-xs-12">
+            <p><small>Promocionado</small></p>
+             <p>Los más vendidos en Hogar, Muebles y Jardín</p>
+          </div>
+        </div>
+        
+        <!--Tercera linea de productos-->
+        <div class="container-fluid row">
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c1l3.jpg"></a>
+            <br><br>
+            <p><span class="oferta_cantidad">  $169 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c2l3.jpg"></a>
+            <br><br>
+            <p><span class="glyphicon glyphicon-bed" aria-hidden="true"></span><span class="oferta_cantidad">  $550 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c3l3.jpg"></a>
+            <br><br>
+            <p><span class="oferta_cantidad">  $479 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c4l3.jpg"></a>
+            <br><br>
+            <p><span class="glyphicon glyphicon-bed" aria-hidden="true"></span><span class="oferta_cantidad">  $979 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas/camas_derecha/c5l3.jpg"></a>
+            <br><br>
+            <p><span class="oferta_cantidad">  $850 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 ofertas_flecha">
+           <a href="#!"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </div>
+     </div> 
+      
+      <div class="separador"></div>
+      <!--Tu historial-->
+      <div class="container-fluid row">  
+        <!--contenido izquierda--> 
+        <div class="col-xs-2 text-right">
+          <p><span class="glyphicon glyphicon-time pull-left" aria-hidden="true">
+          <h3>Tu historial</h3>
+          </p><h6><a href="#!">Borrar</a></h6>
+        </div>
+        
+        <!--contenido derecha-->
+        <div id="historial_der" class="col-xs-10">
+          <a href="#!"><img src="imagenes/ofertas/cama1.jpg" alt=""></a>
+        </div>
+      </div>
+       
+      <div class="separador"></div>
+      
+      <!--Mas categorias-->
+      <div class="container-fluid row">  
+        <!--contenido izquierda-->
+        <div class="col-xs-2 text-right">
+          <h3>Más catetegorias</h3>
+          <h5>Millones de publicaciones por descubrir</h5>
+        </div>
+        
+        <!--contenido derecha-->  
+        <div id="categorias_der" class="col-xs-10">
+          <div class="container-fluid row">
+            <div class="col-xs-12">
+              <div class="comtainer-fluid row">
+                <div class="col-xs-3">
+                  <p>Clasificados</p>
+                  <p class="cat_fondo"><a href="#!">Autos,Motos y Otros</a></p>
+                  <p class="cat_fondo"><a href="#!">Inmuebles</a></p>
+                  <p class="cat_fondo"><a href="#!">Servicios</a></p>
+                  <br>
+                  <p>Marcas</p>
+                  <p class="cat_fondo pull"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#!">Tiendas oficiales</a></p>
+                </div>
+                <div class="col-xs-3">
+                  <p>Categorias</p>
+                  <p><strong>A</strong> <span class="cat_fondo"><a href="#!">Accesorios para vehiculos</a></span></p>
+                  <p class="cat_fondo"><a href="#!">Alimentos y bebidas</a></p>
+                  <p class="cat_fondo"><a href="#!">Animales y mMascotas</a></p>
+                  <p class="cat_fondo"><a href="#!">Arte y Antiguedades</a></p>
+                  <p><strong>B</strong> <span class="cat_fondo"><a href="#!">Bebés</a></span></p>
+                  <p><strong>C</strong> <span class="cat_fondo"><a href="#!">Cámaras y accesorios</a></span></p>
+                  <p class="cat_fondo"><a href="#!">Celulares y telefonía</a></p>
+                  <p class="cat_fondo"><a href="#!">Coleccionables</a></p>
+                  <p class="cat_fondo"><a href="#!">Computación</a></p>
+                  <p class="cat_fondo"><a href="#!">Consolas y Videohiegos</a></p>
+                </div>
+                <div class="col-xs-3">
+                  <br><br>
+                  <p><strong>D</strong> <span class="cat_fondo"><a href="#!">Deportes y Fitness</a></span></p>
+                  <p><strong>E</strong> <span class="cat_fondo"><a href="#!">Electrodomésticos</a></span></p>
+                  <p class="cat_fondo"><a href="#!">Electrónica, Audio y Video</a></p>
+                  <p><strong>H</strong> <span class="cat_fondo"><a href="#!">Herramientas y Construcción</a></span></p>
+                  <p class="cat_fondo"><a href="#!">Hogar, Muebles y Jardín</a></p>
+                  <p><strong>I</strong> <span class="cat_fondo"><a href="#!">Industrias y Oficinas</a></span></p>
+                  <p class="cat_fondo"><a href="#!">Instrumentos Musicales</a></p>
+                  <p><strong>J</strong> <span class="cat_fondo"><a href="#!">Joyas y Relojes</a></span></p>
+                  <p class="cat_fondo"><a href="#!">Juegos y Juguetes</a></p>
+                </div>
+                <div class="col-xs-3">
+                  <br><br>
+                  <p><strong>L</strong> <span class="cat_fondo"><a href="#!">Libros, Revistas y Comics</a></span></p>
+                  <p><strong>M</strong> <span class="cat_fondo"><a href="#!"> Música, Películas y Series</a></span></p>
+                  <p><strong>R</strong> <span class="cat_fondo"><a href="#!">Recuerdos, Cotillón y Fiestas</a></span></p>
+                  <p class="cat_fondo"><a href="#!">Ropa, Bolsas y Calzado</a></p>
+                  <p><strong>S</strong> <span class="cat_fondo"><a href="#!">Salud y Belleza</a></span></p>
+                  <p class="cat_fondo"><a href="#!">Otras Categorías</a></p>
+                </div>
+              </div>
+            </div> 
+          </div>   
+        </div>      
+      </div>
+      <div class="separador"></div>
+
+      <!--Tu Ofertas de la semana-->
+      <div class="container-fluid row">
+        <!--contenido izquierda-->  
+        <div id="ofertas_sem_izq" class="col-xs-2 text-right">
+          <span class="glyphicon glyphicon-tags pull-left" aria-hidden="true"></span>
+          <h3>Ofertas de la semana</h3>
+          <h6><a href="#!">Ver todas las ofertas</a></h6>
+        </div>
+
+        <!--contenido derecha-->
+        <div id="ofertas_sem_der" class="col-xs-10 text-right">
+          <div class="container-fluid row">
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas_sem/os1.jpg"></a>
+            <del>$1,999 <sup>00</sup></del>
+            <p><span class="oferta_porciento">50% off </span><span class="oferta_cantidad">  $999 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas_sem/os2.jpg"></a>
+            <del>$7,999 <sup>00</sup></del>
+            <p><span class="oferta_porciento">26% off </span><span class="oferta_cantidad">  $5,899 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas_sem/os3.jpg"></a>
+            <del>$15,999 <sup>00</sup></del>
+            <p><span class="oferta_porciento">26% off </span><span class="oferta_cantidad">  $11,799 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas_sem/os4.jpg"></a>
+            <del>$2,929 <sup>00</sup></del>
+            <p><span class="oferta_porciento">65% off </span><span class="oferta_cantidad">  $999 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/ofertas_sem/os5.jpg"></a>
+            <del>$17,999 <sup>00</sup></del>
+            <p><span class="oferta_porciento">28% off </span><span class="oferta_cantidad">  $12,799 <sup>00</sup> </span></p>
+          </div>
+          <div class="col-xs-2 ofertas_flecha">
+           <a href="#!"><span class="os glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="separador"></div>
+
+    <!--mercado pago div-->
+    <div class="container-fluid row " id="mp_div">
+      <div class="col-xs-4 ">
+       <h4>Paga Online</h4>
+       <div class="row">
+        <div class="col-xs-6 text-right">
+          <img src="imagenes/mp_div1.png" alt="">   
+        </div>
+        <div class="col-xs-6 text-left">
+          <small>Usa Mercado Pago, la solución de Mercado Libre para pagar de forma segura en cuotas sin interés y con el medio de pago que prefieras 
+          </small>
+        </div> 
+       </div>
+          <br>
+         <div id="mp_tarjetas">
+         <img id="img1" src="imagenes/m_pago.png" alt="">
+         <img id="img2" src="imagenes/tarjetas.png" alt="">
+       </div>
+       <br>
+       <a href="#!">Qué es Mercado Pago</a>
+      </div>
+      <div class="col-xs-4">
+       <h4>Recibe el producto</h4>            
+        <div class="row">
+        <div class="col-xs-6 text-right">
+          <img src="imagenes/mp_div2.png" alt="">   
+        </div>
+        <div class="col-xs-6 text-left">
+          <small>Calcula el costo y tiempo de entrega con Mercado Envíos en cada publicación. Págalo con Mercado Pago, ¡el envío es más barato y está asegurado!
+          </small>
+        </div>  
+       </div>
+       <br>
+       <a href="#!">Cómo coordino la entrega</a> 
+      </div>
+      <div class="col-xs-4 ">
+       <h4>Compra protegida</h4>
+       <div class="row">
+        <div class="col-xs-6 text-right">
+          <img src="imagenes/mp_div3.png" alt="">   
+        </div>
+        <div class="col-xs-6 text-left">
+          <small>Recibe el producto que esperabas o te devolvemos tu dinero. Paga a través de Mercado Pago y disfruta la tranquilidad de comprar seguro
+          </small>
+        </div>  
+       </div>
+       <br><br>
+       <a href="#!">Cómo protegemos tu compra</a>             
+      </div>
+    </div>
+    
+     <div class="separador"></div>
+    <!--Barra appstore/playstore-->
+    <div class="row">
+      <a href="#!">
+        <div id="a_p_store" class="col-xs-10 col-xs-offset-1">
+          <div class="row">
+            <div class="col-xs-5 col-xs-offset-1">
+              <font color="white"><h3>¡Compra y vende desde tu celular!</h3>
+              <h5>Descarga <font color="yellow">gratis</font> la aplicacion de mercado libre para iOS y Android</h5></font>
+            </div>
+            <div  class="col-xs-3 store_img">
+              <img id="app" src="imagenes/appS.png" alt="">
+              <img id="play" src="imagenes/playS.png" alt="">
+            </div>
+            <div class="col-xs-2 store_img">
+              <img id="phone" src="imagenes/telefono.png" alt="">
+            </div>
+          </div>
+        </div>
+      </a>  
+    </div>
+    
+    <div class="separador"></div>
+    <div class="separador"></div>
+    
+    <!--Tiendas oficiales-->
+     <div class="container-fluid row">
+        <!--contenido izquierda-->  
+        <div  id="tiendas_izq" class="col-xs-2 text-right">
+          <span class="glyphicon glyphicon-ok pull-left" aria-hidden="true"></span>
+          <h3>Tiendas oficiales</h3>
+          <h5>Compra directamente a tus marcas preferidas</h5>
+          <h5><a href="#!">ver tiendas</a></h5>
+        </div>
+
+        <!--contenido derecha-->
+        <div id="tiendas_der" class="col-xs-10 text-right">
+          <div class="container-fluid row">
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/tienda/behringer.png" alt=""></a>
+          </div>
+          
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/tienda/dica.jpg" alt=""></a>
+          </div>
+          
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/tienda/disenia.png" alt=""></a>
+          </div>
+          
+          <div class="col-xs-2 text-right">
+            <a href="#!"><img src="imagenes/tienda/incase.jpg" alt=""></a>
+          </div>
+          
+          <div class="col-xs-2 text-right">
+           <a href="#!"><img src="imagenes/tienda/kumho.png" alt=""></a>
+          </div>
+          <div class="col-xs-2">
+           <a href="#!"><span class="os glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="separador"></div>
+
+    <!--Publicaciones destacadas-->
+    <div class="container-fluid" row>
+      <div class="col-xs-11 col-xs-offset-1">
+        <h4>Publicaciones destacadas</h4>
+      </div>
+    </div>
+
+    <div class="container-fluid" row>
+      <div class="col-xs-10 col-xs-offset-1">
+         <div id="destacados" class="container-fluid" row>
+           <div class="col-xs-2 text-right">
+              <a href="#!"><img src="imagenes/destacadas/des1.jpg" alt="">
+                  <p>Cargador Laptop Sony Vaio 19...</p>
+                  <p id="precio">$223 <sup>00</sup></p>
+              </a>      
+           </div>
+           <div class="col-xs-2 text-right">
+              <a href="#!"><img src="imagenes/destacadas/des2.jpg" alt="">
+                <p>Alianza Bling Jewerly p/homb...</p>  
+                <p id="precio">$993 <sup>19</sup></p>
+              </a>
+           </div>
+           <div class="col-xs-2 text-right">
+             <a href="#!"><img src="imagenes/destacadas/des3.jpg" alt="">
+                <p>Bolsas P/sándwich C/doble Zi...</p>
+                <p id="precio">$989 <sup>25</sup></p>
+             </a>     
+           </div>
+           <div class="col-xs-2 text-right">
+             <a href="#!"><img src="imagenes/destacadas/des4.jpg" alt="">
+                <p>Tálon Fergie Remix Women C/p...</p>  
+                <p id="precio">$1,606 <sup>53</sup></p>
+             </a>   
+           </div>
+           <div class="col-xs-2 text-right">
+             <a href="#!"><img src="imagenes/destacadas/des5.jpg" alt="">
+                <p>Cable VGA manhattan Para Mon...</p>  
+                <p id="precio">$98 <sup>00</sup></p>
+             </a>   
+           </div>
+           <div class="col-xs-2 text-right">
+             <a href="#!"><img src="imagenes/destacadas/des6.jpg" alt="">
+                <p>Excelente Crv 2012 Exl 4wd N...</p>
+                <p id="precio">$192,000 <sup>00</sup></p>
+             </a>  
+           </div>
+         </div>
+      </div>
+
+      <div class="col-xs-1 " id="u_flecha">
+        <a href="#!"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+      </div>
+    </div>
+    
+    <div class="separador"></div>
+    <div class="separador"></div>
+
+    <div id="m_informacion" class="container-fluid row text-center">
+      <div class="col-xs-12">
+        <p><a href="#!">Más información <span class=" glyphicon glyphicon-menu-up" aria-hidden="true"></span></a> </p>
+      </div>  
+    </div>
+    
+    <!--pie de pagina-->
+    <footer>
+      <div id="pie" class="container-fluid row">
+        <div  class="container-fluid row">
+          <div class="col-xs-11 col-xs-offset-1">
+            <p>Copyright © 1999-2017 DeRemate.com de México S. de R.L. de C.V. </p>
+          </div>
+        </div>
+        <div class="container-fluid row">
+          <div class="col-xs-7 col-xs-offset-1">
+            <a href="#!">Trabaja con nosotros</a> &nbsp&nbsp
+            <a href="#!">Terminos y condiciones</a> &nbsp&nbsp
+            <a href="#!">Politicas de privacidad</a> &nbsp&nbsp
+            <a href="#!">Ayuda</a>
+          </div>
+          <div id="foot_amarillo" class="col-xs-4">
+            <span>
+              <a href="">
+                <img src="imagenes/t_down.svg" alt="">
+                ¡descarga gratis la app de mercado libre!
+              </a>  
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $('.carousel').carousel({
+          interval: 2500,
+          keyboard: true
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,744 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/my_css.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <title>Google Play</title>
+      <meta charset="utf-8">
+      <link rel="shortcut icon" href="imagenes/logo_gp.png">
+    </head>
+
+    <body>
+    
+
+    <!--BARRA DE NAVEGACION-->
+    <header>
+      <nav>
+        <div class="nav-wrapper grey lighten-3">
+        <!--logo de la barra de navegacion-->
+        <a href="#!" class="brand-logo"><img class="responsive-img" src="imagenes/g_play.png" width="175" id="g_play_img"></img></a>
+        <!--barra de busqueda de la barra de navegacion-->
+        <ul class="hide-on-med-and-down" id="barra">
+          <li>
+            <form>
+              <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+              </div>
+            </form>
+          </li>
+        </ul>
+        <!--opciones a la derecha de la barra de navegacion-->
+        <ul class="right hide-on-med-and-down">  
+          <li><a href="#!"><i  class="material-icons">view_module</i></a></li>
+          <li><a href="#!"><i class="material-icons">notifications</i></a></li>
+          <li><a href="#!"><img class="responsive-img circle" height="40" width="40" src="imagenes/user.png" id="user_img"></a></li>
+        </ul>
+        </div>
+      </nav>
+     </header> 
+
+     <!--SEGUNDA BARRA DE NAVEGACION-->
+      <div class="navbar-fixed" id="mover_top">
+       <nav >
+         <div class="nav-wrapper grey lighten-5" >
+           <ul class="right" id="barra_2">
+             <li >
+               <a class="waves-effect white btn"><i class="material-icons" id="btn_help">help</i></a>
+             </li>
+             <li>
+               <a class="waves-effect white btn"><i class="material-icons">settings</i></a>
+             </li>
+           </ul>
+         </div>
+       </nav>
+    </div>
+
+    <!--BARRA DE NAVEGACION LATERAL-->
+    <ul id="slide-out" class="side-nav fixed">
+      <li class="grey darken-4" ><a href="#!" id="entretenimiento"><i  class="material-icons">dashboard</i>Entretenimiento</a></li>
+      <li id="aplicaciones"><a href="#!" ><i class="material-icons">android</i>Aplicaciones</a></li>
+      <li id="peliculas"><a href="#!" ><i class="material-icons">local_movies</i>Peliculas</a></li>
+      <li id="musica"><a href="#!" ><i class="material-icons">music_note</i>Musica</a></li>
+      <li id="libros"><a href="#!" ><i class="material-icons">book</i>Libros</a></li>
+      <li id="kiosco"><a href="#!" ><i class="material-icons">featured_play_list</i>Kiosco</a></li>
+      <li class="side_nav_text"><a href="#!" >Cuenta</a></li>
+      <li class="side_nav_text"><a href="#!" >Canjear</a></li>
+      <li class="side_nav_text"><a href="#!" >Comprar tarjeta de regalo</a></li>
+      <li class="side_nav_text"><a href="#!" >Mi lista de deseos</a></li>
+      <li class="side_nav_text"><a href="#!" >Mi actividad de play</a></li>
+      <li class="side_nav_text"><a href="#!" >Guia para padres</a></li>
+    </ul> 
+    
+    <!--Slider-->
+    
+    <div class="slider ">
+      <ul class="slides">
+        <li>
+          <a href="">
+          <img src="imagenes/slider1.jpg"> 
+          <div class="caption center-align">
+            <h3>30 dias de música gratis</h3>
+            <h5 class="light grey-text text-lighten-3">¡Prueba Google Play hoy!</h5>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="imagenes/slider2.jpg"> 
+          <div class="caption center-align">
+            <h3>Dia mundial del libro</h3>
+            <h5 class="light grey-text text-lighten-3">Celebra con descuentos</h5>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="imagenes/slider3.jpg"> 
+          <div class="caption center-align">
+            <h3>Ofertas de la semana</h3>
+            <h5 class="light grey-text text-lighten-3">Pelis con descuento</h5>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="imagenes/slider4.jpg"> 
+          <div class="caption center-align">
+            <h3>Llébate estos álbumes</h3>
+            <h5 class="light grey-text text-lighten-3">Puro rock por MX$50</h5>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="imagenes/slider5.jpg"> 
+          <div class="caption center-align">
+            <h3>Películas fantásticas</h3>
+            <h5 class="light grey-text text-lighten-3">Un mounstruo viene a verme y mas</h5>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="imagenes/slider6.jpg"> 
+          <div class="caption center-align">
+            <h3>Llegó a Google Play</h3>
+            <h5 class="light grey-text text-lighten-3">Lee los libros más nuevos</h5>
+          </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+    <!--Novedades Cards-->
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <span>
+          <h5>Novedades en la tienda</h5>
+          <h6>Estrenos de cine</h6>  
+        </span>       
+      </div>
+      <div class="col s2 center">
+          <a class="waves-effect red darken-2 btn btn_mas">Más</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s2 offset-s2">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/novedades/1.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Barreras(Subtitulada)</p>
+                  <p class="subtitulo">Drama</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$150.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/novedades/2.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Sing ¡ven y canta!</p>
+                  <p class="subtitulo">Animación</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$200.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/novedades/3.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">¿Por qúe el?</p>
+                  <p class="subtitulo">Comedia</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$150.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/novedades/4.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Assassin's Creed</p>
+                  <p class="subtitulo">Accion y aventura</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$40.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/novedades/5.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Moana </p>
+                  <p class="subtitulo">Accion y aventura</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$40.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+
+    <!--Tu proxima lectura Cards-->
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <span>
+          <h5>Tu proxima lectura</h5>
+          <h6>Libros para devorar</h6>  
+        </span>       
+      </div>
+      <div class="col s2 center">
+          <a class="waves-effect light-blue darken-1 btn btn_mas">Más</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s2 offset-s2">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/p_lectura/1.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">la historia de la...</p>
+                  <p class="subtitulo">Chumel Torres</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$149.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/p_lectura/2.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">El joven Hitler 3</p>
+                  <p class="subtitulo">Javier Cosanava</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$18.36</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/p_lectura/3.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Los cuentos de...</p>
+                  <p class="subtitulo">J.M. Sarmiento</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$160.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/p_lectura/4.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Ser inteligente</p>
+                  <p class="subtitulo">Henry Osal</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$13.39</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/p_lectura/5.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Steve Jobs Lec... </p>
+                  <p class="subtitulo">Walter Issacson</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$59.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      
+      <!--musica nueva cards-->
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <span>
+          <h5>¡Musica nueva!</h5>
+          <h6>no pierdas los estrenos</h6>  
+        </span>       
+      </div>
+      <div class="col s2 center">
+          <a class="waves-effect orange darken-4 btn btn_mas">Más</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s2 offset-s2">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/musica_nueva/1.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Circo Soledad</p>
+                  <p class="subtitulo">Ricardo Arjona</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$130.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/musica_nueva/2.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">8</p>
+                  <p class="subtitulo">Incubus</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$110.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/musica_nueva/3.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">La mejor version...</p>
+                  <p class="subtitulo">Banda MS</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star_half</i>
+                  <p class="precio">$90.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/musica_nueva/4.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Enamorada con...</p>
+                  <p class="subtitulo">Lucero</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$130.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/musica_nueva/5.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">The Cure</p>
+                  <p class="subtitulo">Lady Gaga</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$15.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      
+      <!--Ofertas de la semana cards-->
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <span>
+          <h5>Ofertas de la semana</h5>
+          <h6>Pelis con descuentos</h6>  
+        </span>       
+      </div>
+      <div class="col s2 center">
+          <a class="waves-effect red darken-2 btn btn_mas">Más</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s2 offset-s2">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/ofertas/1.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">El principito</p>
+                  <p class="subtitulo" style="visibility:hidden">----</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star_half</i>
+                  <small class="precio"><strike>$100.00</strike></small>  
+                  <p class="precio">$70.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/ofertas/2.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Disneynature:El r...</p>
+            <p class="subtitulo">Accion y aventura</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <small class="precio"><strike>$200.00</strike></small> 
+                  <p class="precio">$65.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/ofertas/3.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Disneynature:Alas...</p>
+                  <p class="subtitulo">Documental</p>
+                  <i class="material-icons estrellas">star_border</i><i class="material-icons estrellas">star_border</i><i class="material-icons estrellas">star_border</i><i class="material-icons estrellas">star_border</i><i class="material-icons estrellas">star_border</i>
+                  <small class="precio"><strike>$200.00</strike></small> 
+                  <p class="precio">$65.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/ofertas/4.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Population Boom</p>
+                  <p class="subtitulo">Documental</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <small class="precio"><strike>$100.00</strike></small>
+                  <p class="precio">$60.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/ofertas/5.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">zapatero a tus... </p>
+                  <p class="subtitulo">Walter Issacson</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star_border</i>
+                  <small class="precio"><strike>$150.00</strike></small>
+                  <p class="precio">$70.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      
+      <!--Recomendado para ti cards-->
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <span>
+          <p class="subtitulo" style="visibility:hidden">----</p>
+          <h5>Recomendado para ti</h5> 
+        </span>       
+      </div>
+      <div class="col s2 center">
+          <a class="waves-effect orange darken-4 btn btn_mas">Más</a>
+      </div>
+    </div>
+     
+     <div class="row"> 
+      <div class="col s5 offset-s2">
+        <div class="card horizontal">
+        <div class="card-image">
+          <img class="horizontal_card" src="imagenes/recomendado/1.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <span>
+              <h5>Moana: Un mar de av...</h5>
+              <h6>Accion y aventura</h6>
+              <p>Hace tres mil años, los más grandes navegantes del mundo navegaron a través del vasto pacífico</p>
+              <span><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star_border</i> <p class="right">$40.00</p></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s5">
+        <div class="card horizontal">
+        <div class="card-image">
+          <img class="horizontal_card" src="imagenes/recomendado/2.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <span>
+              <h5>Escuadron Suicida</h5>
+              <h6>Accion y aventura</h6>
+              <p>Se siente bien ser malo... Forme un equipo de los super villanos encarcelados mas peligrosos del mundo</p>
+              <span><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star_border</i> <p class="right">$40.00</p></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <div class="row"> 
+      <div class="col s5 offset-s2">
+        <div class="card horizontal">
+        <div class="card-image">
+          <img class="horizontal_card" src="imagenes/recomendado/3.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <span>
+              <h5>Shape of you</h5>
+              <h6>Ed Sheran</h6>
+              <p class="right">$40.00</p></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s5">
+        <div class="card horizontal">
+        <div class="card-image">
+          <img class="horizontal_card" src="imagenes/recomendado/4.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <span>
+              <h5>El joven Hitler 2: Hitler adolecente</h5>
+              <h6>Javier Cosnava</h6>
+              <p>Hitler 3 En tu plataforma de E-boocks favorita el dia 15 de Diciembre</p>
+              <span><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star_border</i> <p class="right">GRATIS</p></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+     <!--Hard rock cards-->
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <span>
+          <h5>Hard rock</h5>
+          <h6>recomendado para ti</h6>  
+        </span>       
+      </div>
+      <div class="col s2 center">
+          <a class="waves-effect orange darken-4 btn btn_mas">Más</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s2 offset-s2">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/rock/1.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Saint Cecilia EP</p>
+                  <p class="subtitulo">Foo Fighters</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">Gratis</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/rock/2.png">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">MTV Umplugged...</p>
+                  <p class="subtitulo">Nirvana</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$110.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/rock/3.png">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Demon Days</p>
+                  <p class="subtitulo">Gorrilas</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star_half</i>
+                  <p class="precio">$80.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/rock/4.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">The black parade</p>
+                  <p class="subtitulo">My Chemical Romance</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$90.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+      <div class="col s2 ">
+        <div class="card">
+          <div class="card-image">
+            <img class="discos" src="imagenes/rock/5.jpg">
+          </div>
+          <div class="card-content">
+            <span><p class="titulo">Discovery</p>
+                  <p class="subtitulo">Daft Punk</p>
+                  <i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i><i class="material-icons estrellas">star</i>
+                  <p class="precio">$90.00</p>
+           </span>       
+          </div>
+        </div>
+      </div>
+
+      <!--Pie de pagina-->
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row"></div>
+      <footer>
+        <div class="row">
+          <div class="col s1 offset-s2 ">
+            <small><p>©2017 Google</p></small>
+          </div>
+          <div class="col s2 left">
+            <small><a href="#!"><p>Condiciones de Servicio del sitio</p></a></small>
+          </div>
+           <div class="col s1 left">
+            <small><a href="#!"><p>Privacidad</p></a></small>
+          </div>
+          <div class="col s1 left">
+            <small><a href="#!"><p>Desarrolladores</p></a></small>
+          </div>
+          <div class="col s1 left">
+            <small><a href="#!"><p>Artistas</p></a></small>
+          </div>
+          <div class="col s1 left">
+            <small><a href="#!"><p>Acerca de Google</p></a></small>
+          </div>
+          <div class="col s3 left">
+            <small><p>Todos los precios incluyen IVA</p></small>
+          </div>
+        </div>
+      </footer>  
+      
+    
+
+      
+
+    <!--SCRIPT PARA QUE EL SEGUNDO NAV/SIDENAV SE MUEVAN AL TOP -->
+    <script type='text/javascript'>
+      var startProductBarPos=-1;
+      window.onscroll=function(){
+        var bar = document.getElementById('mover_top');
+        if(startProductBarPos<0)startProductBarPos=findPosY(bar);
+        if(pageYOffset>startProductBarPos){
+            bar.style.position='fixed';
+            bar.style.top=0;
+            
+            document.getElementById('slide-out').style.top=0;
+        }else{
+            bar.style.position='relative';
+        }
+
+    };
+
+     
+    
+      function findPosY(obj) {
+        var curtop = 0;
+        if (typeof (obj.offsetParent) != 'undefined' && obj.offsetParent) {
+            while (obj.offsetParent) {
+                curtop += obj.offsetTop;
+                obj = obj.offsetParent;
+            }
+            curtop += obj.offsetTop;
+        }
+        else if (obj.y)
+            curtop += obj.y;
+        return curtop;
+      }
+    
+    </script>
+    
+    
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.slider').slider({
+          height:300,
+          interval:2500
+        });
+      });
+    </script>
+      
+    </body>
+  </html>
+        

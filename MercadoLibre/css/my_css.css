@@ -1,0 +1,292 @@
+
+.navbar{
+	background-color: #ffee58  ;
+	height: 4.2em;
+}
+	
+.navbar-brand img{
+	margin-left: 4em;
+	width: 155px;
+	height: 40px;
+}
+#navbar_form{
+	display: table;
+	display: inline;
+}
+
+#navbar_form input[type=text]{
+	width:485px !important;
+	margin-left: 0.8em;
+}
+
+#navbar_form a{
+	width:50px ; 
+	
+}
+
+body { 
+	padding-top: 70px; 
+}
+
+.navbar-right {
+	margin-top: 0.5em;
+	margin-right: 5.2em;
+}
+.navbar-right li{
+	font-weight: bold;
+	font-size: 0.9em;
+	color:#000;
+	 font-family: "Arial";
+}
+
+.navbar-right li .nav_rl{
+	border-right: 1px dotted #9e9e9e ;    
+}
+
+.carousel-indicators{
+	margin-top: 10px;
+}
+
+.carousel-indicators li {
+    width: 0.9em;
+    height: 0.9em;
+    margin: 3px;
+    background-color: #e0e0e0;
+    
+}
+
+.carousel-indicators .active {
+    width: 0.9em;
+    height: 0.9em;
+    margin: 3px;
+    background-color: #263238 ;
+    border: 1px solid #e0e0e0;
+    margin-top: 5em;
+}
+
+
+.carousel-control{
+	background-color: gray;
+	height: 3em;
+	width: 2em;
+	margin-top: 6em;
+}
+
+.carousel-control span{
+	color: black;
+}
+
+#tarjetas_img{
+	width: 10em;
+	height: 2em;
+}
+
+#m_pago{
+	width: 6em;
+	height: 1.8em;
+}
+
+#registro{
+	height: 7em;
+	background-color: #e0e0e0;
+	text-align: center;
+}
+
+#registro div{
+	color: #757575;
+	margin-right: 5em;
+	line-height: 5em;
+	font-size: 20px;
+}
+button{
+	color: #fff;
+	
+}
+
+.btn{
+	width: 13em;
+	height: 3em;
+	background-color: #303f9f;
+	font-weight: bold;
+}
+
+#o_cama{
+	height: 50px;
+	width: 50px;
+}
+#ofertas_izq .glyphicon-ok{
+	margin-left: 6em;
+}
+#ofertas_der{
+	border-left: 1px solid #bdbdbd; 
+}
+#ofertas_izq #gris{
+	color: #9e9e9e;
+}
+
+#tiendas_oficiales_img img{
+	height: 70px;
+	width: 70px;
+}
+#ofertas_der img{
+	width: 150px;
+	height: 150px;
+}
+#ofertas_sem_der img{
+	width: 150px;
+	height: 150px;
+}
+
+
+.oferta_porciento{
+	color: #fff;
+	background-color: #b71c1c ;
+}
+.oferta_cantidad{
+	font-size: 18px;
+	font-weight: bold;
+	color:#b71c1c ;
+}
+
+.ofertas_flecha{
+	margin-top: 7em;
+}
+
+.ofertas_flecha .os{
+	margin-right: 3.7em;
+}
+
+.ofertas_flecha span{
+	font-size: 30px;
+	color: #616161 ;
+}
+.glyphicon-bed{
+	color: #388e3c;
+}
+.glyphicon-time{
+	margin-top: 24px;
+	font-size: 20px;
+	margin-left: 55px;
+}
+
+#historial_der,#categorias_der,#ofertas_sem_der,#tiendas_der{
+	border-left: 1px solid #bdbdbd; 
+}
+
+#historial_der img{
+	width: 75px;
+	height: 75px;
+}
+.separador{
+	height: 3em;
+	
+}
+.cat_fondo a{
+	background-color: #e0e0e0;
+	color:#424242  ;
+}
+.glyphicon-ok{
+	color: #00b8d4;
+}
+
+.glyphicon-tags{
+	color: #fbc02d;
+}
+
+#ofertas_sem_izq .glyphicon-tags{
+	margin-top: 1.2em;
+	font-size: 20px;
+	margin-left: 1.5em;
+}
+
+
+#mp_div{
+	height: 18em;
+	background-color: #e0e0e0;
+	text-align: center;
+}
+
+#mp_div .col-xs-4{
+	margin-top: 15px;
+}
+
+#mp_tarjetas #img1{
+	margin-top: 7px;
+	width:70px ;
+	height:30px ;
+}
+
+
+#mp_tarjetas #img2{
+	width:85px ;
+	height:30px ;
+}
+#a_p_store{
+	background-color: #78909c;
+	height: 6.5em;
+	border-radius: 10px;
+}
+.store_img #app{
+	margin-top: 25px;
+	width:120px ;
+	height:40px ;
+}
+
+.store_img #play{
+	margin-top: 25px;
+	width:120px ;
+	height:40px ;
+}
+
+.store_img #phone{
+	width:160px ;
+	height:90px ;
+}
+
+#tiendas_izq .glyphicon-ok{
+	margin-top: 25px;
+}
+#tiendas_der img{
+	margin-top: 20px;
+	width: 130px;
+	height: 100px;
+}
+
+#tiendas_der .glyphicon-chevron-right{
+	margin-top: 70px;
+	margin-right: 120px; 
+	font-size: 30px;
+	color: #616161 ;
+}
+#destacados img{
+	width:110px;
+	height: 135px;
+}
+#destacados #precio{
+	color: #b71c1c;
+}
+
+#u_flecha .glyphicon-chevron-right{
+	margin-top: 70px; 
+	font-size: 30px;
+	color: #616161 ;
+}
+
+#m_informacion a{
+	background-color: #e0e0e0;
+	color :gray;
+}
+#pie{
+	background-color: #e0e0e0;
+	height: 60px;
+}
+
+#foot_amarillo a{
+	background-color: #ffeb3b ;
+	color: #000;
+}
+
+#foot_amarillo img{
+	width: 18px;
+	height: 18px;	
+}

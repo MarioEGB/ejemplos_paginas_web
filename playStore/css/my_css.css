@@ -1,0 +1,114 @@
+#g_play_img{
+	margin-top: 0.28em;
+	margin-left: 1em;
+}
+#user_img{
+	margin-top: 1em;
+	margin-right: 1em;
+}
+i{
+	color: #616161;
+}
+#barra{
+	margin-left: 15.5em;
+}
+
+#barra input{
+	background-color: #81d4fa;
+}
+#barra_2{
+	margin-left: 33%;
+}
+#barra_2 li a{
+	height: 2.2em;
+	margin-bottom: 1em;
+}
+#mover_top nav{
+	height: 3.2em;
+}
+#slide-out{
+	margin-top: 4.3em;
+	width: 17%;
+}
+#slide-out i, #entretenimiento{
+	color: white;
+}
+#aplicaciones i{
+	background-color: #43a047;
+}
+#aplicaciones a:hover{
+	background-color: #43a047;
+	color: white;
+}
+#peliculas i{
+	background-color: #d32f2f ;
+}
+#peliculas a:hover{
+	background-color: #d32f2f ;
+	color: white;
+}	
+#musica i{
+	background-color: #e65100  ;
+}
+#musica a:hover{
+	background-color: #e65100  ;
+	color: white;
+}	
+#libros i{
+	background-color: #039be5  ;
+}
+#libros a:hover{
+	background-color: #039be5  ;
+	color: white;
+}	
+#kiosco i{
+	background-color: #5c6bc0  ;
+}
+#kiosco a:hover{
+	background-color: #5c6bc0  ;
+	color: white;
+}
+.side_nav_text	{
+	height: 2em;
+	font-family:"arial", "Times New Roman";
+ }
+ .side_nav_text:hover{
+	background-color: #e0e0e0;
+ }
+ .slider{
+ 	width: 1050px;
+ 	margin-left: 20%;
+ }
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;  
+}
+.card{
+	width: 85%;
+}
+.card-content span .titulo{
+	font-size: 15px;
+}
+
+.card-content span .subtitulo{
+	font-size: 10px;
+}
+.estrellas{
+	font-size: 15px;
+}
+.card-image img{
+	width: 212px;
+	height: 275px;
+}
+.btn_mas{
+	margin-top: 3em;
+}
+
+.card-image .discos{
+	width: 212px;
+	height: 140px;
+}
+
+.card-image .horizontal_card{
+	height: 220px;
+}
